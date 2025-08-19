@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlipSpin Mini App</title>
+</head>
+<body>
+    <div id="loading" class="loading-container">
+        <div class="loader">Loading...</div>
+    </div>
+    <div id="app" class="app-container" style="display:none;">
+        <header>
+            <h1>FlipSpin</h1>
+            <div class="balance">Balance: <span id="balance">100FP</span></div>
+        </header>
+        <main>
+            <div class="spin-wheel" id="spinWheel">
+                <!-- Spin wheel graphics here -->
+            </div>
+            <button id="spinButton">Spin</button>
+            <button id="withdrawButton">Withdraw</button>
+            <button id="referralButton">Referral</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
